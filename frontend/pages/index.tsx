@@ -21,6 +21,7 @@ export default function Home() {
   return (
     <main>
       <form onSubmit={handleForm}>
+        Enter your email here and we will create a page for you. Anyone that visits your page will have their ip sent to your email!<br />
         <input type="email" placeholder="Your Email" onChange={handleEmailInput} required/>
         <button>
           GET YOUR LINK!
