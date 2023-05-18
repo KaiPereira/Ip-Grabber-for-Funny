@@ -19,13 +19,12 @@ export default function Home() {
   }
 
   return (
-    <main>
+    <main className="main-page">
       <form onSubmit={handleForm}>
-        Enter your email here and we will create a page for you. Anyone that visits your page will have their ip sent to your email!<br />
-        <input type="email" placeholder="Your Email" onChange={handleEmailInput} required/>
-        <button>
-          GET YOUR LINK!
-        </button>
+        <h1>IP GRABBER</h1>
+        <p className="main-description">Simply enter your email, and we’ll generate a page that you can share with friends and family. When someone goes on the page, their IP and network details will be sent to you via email!</p>
+        <input type="email" placeholder="Your email..." onChange={handleEmailInput} required/><br />
+        <button>Get a Link</button>
       </form>
     </main>
   )
