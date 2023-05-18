@@ -25,6 +25,7 @@ export default function Home() {
         <p className="main-description">Simply enter your email, and we’ll generate a page that you can share with friends and family. When someone goes on the page, their IP and network details will be sent to you via email!</p>
         <input type="email" placeholder="Your email..." onChange={handleEmailInput} required/><br />
         <button>Get a Link</button>
+        <p className="main-disclaimer">Disclaimer: Not for illegal use! Please...</p>
       </form>
     </main>
   )
